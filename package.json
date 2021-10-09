@@ -10,9 +10,7 @@
     "prepare": "husky install",
     "test": "jest",
     "test:watch": "yarn test --watch",
-    "generate": "yarn plop --plopfile ./generators/plop.js",
-    "storybook": "start-storybook -p 6006 -s public --no-dll",
-    "build-storybook": "build-storybook -s public --no-dll"
+    "generate": "yarn plop --plopfile ./generators/plop.js"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.33.0",
@@ -39,8 +37,6 @@
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
     "@babel/preset-typescript": "^7.15.0",
-    "@storybook/addon-essentials": "^6.3.10",
-    "@storybook/react": "^6.3.10",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.2",
