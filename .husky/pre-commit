@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+#? Colocar todos os comandos que o Husky deverá executar antes de qualquer commit
+#? --no-install diz que ele não vai instalar a lib e irá utilizar a disponivel no projeto
+npx --no-install lint-staged
