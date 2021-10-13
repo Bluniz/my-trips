@@ -17,6 +17,8 @@
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "eslint-plugin-react": "^7.26.1",
+    "graphql": "^15.6.1",
+    "graphql-request": "^3.5.0",
     "leaflet": "^1.7.1",
     "next": "^11.1.2",
     "next-pwa": "^5.3.1",
