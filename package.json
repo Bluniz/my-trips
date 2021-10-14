@@ -10,7 +10,8 @@
     "prepare": "husky install",
     "test": "jest",
     "test:watch": "yarn test --watch",
-    "generate": "yarn plop --plopfile ./generators/plop.js"
+    "generate": "yarn plop --plopfile ./generators/plop.js",
+    "codegen": "graphql-codegen --config codegen.yml"
   },
   "dependencies": {
     "@styled-icons/evaicons-outline": "^10.34.0",
@@ -42,6 +43,10 @@
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
     "@babel/preset-typescript": "^7.15.0",
+    "@graphql-codegen/add": "^3.1.0",
+    "@graphql-codegen/cli": "2.2.1",
+    "@graphql-codegen/typescript": "2.2.3",
+    "@graphql-codegen/typescript-operations": "2.1.7",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.0.2",
