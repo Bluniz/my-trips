@@ -43,6 +43,7 @@ export default function Map({ places }: MapProps) {
         zoom={3}
         style={{ height: '100%', width: '100%' }}
         center={[0, 0]}
+        minZoom={3}
       >
         <CustomTileLayer />
         {places?.map(({ location, id, name, slug }) => (
