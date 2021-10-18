@@ -44,6 +44,10 @@ export default function Map({ places }: MapProps) {
         style={{ height: '100%', width: '100%' }}
         center={[0, 0]}
         minZoom={3}
+        maxBounds={[
+          [-180, 180],
+          [180, -180]
+        ]}
       >
         <CustomTileLayer />
         {places?.map(({ location, id, name, slug }) => (
