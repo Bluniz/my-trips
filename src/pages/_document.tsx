@@ -1,3 +1,4 @@
+import { Analytics } from 'components/Analytics'
 import Document, {
   DocumentContext,
   Html,
@@ -42,6 +43,7 @@ export default class MyDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <Analytics />
         </body>
       </Html>
     )
