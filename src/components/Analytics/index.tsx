@@ -6,10 +6,10 @@ export const Analytics = () => (
     >
       <script
         dangerouslySetInnerHTML={{
-          __html: `  window.dataLayer = window.dataLayer || [];
+          __html: `window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
-          gtag('js' newDate());
-          gtag('config'm '${process.env.NEXT_PUBLIC_GA_TRACKING}', {
+          gtag('js' new Date());
+          gtag('config','${process.env.NEXT_PUBLIC_GA_TRACKING}', {
             page_path: window.location.pathname,
           });
           `
